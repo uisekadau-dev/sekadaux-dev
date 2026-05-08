@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { Github, Instagram, MessageCircle } from 'lucide-react'
 
 export default function Page() {
   return (
@@ -24,16 +23,10 @@ export default function Page() {
         Open to collab & freelance 🚀
       </p>
       
-      <div className="flex gap-6">
-        <a href="https://github.com/isi-github-lo" target="_blank" className="text-neutral-700 dark:text-neutral-300 hover:text-purple-500">
-          <Github size={24} />
-        </a>
-        <a href="https://instagram.com/isi-ig-lo" target="_blank" className="text-neutral-700 dark:text-neutral-300 hover:text-pink-500">
-          <Instagram size={24} />
-        </a>
-        <a href="https://wa.me/628xxxxxxxxxx" target="_blank" className="text-neutral-700 dark:text-neutral-300 hover:text-green-500">
-          <MessageCircle size={24} />
-        </a>
+      <div className="flex gap-6 text-2xl">
+        <a href="https://github.com/isi-github-lo" target="_blank">💻</a>
+        <a href="https://instagram.com/isi-ig-lo" target="_blank">📸</a>
+        <a href="https://wa.me/628xxxxxxxxxx" target="_blank">💬</a>
       </div>
     </section>
   )
