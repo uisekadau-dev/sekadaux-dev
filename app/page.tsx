@@ -5,10 +5,10 @@ export default function Page() {
     <section>
       <div className="mb-8">
         <Image
-          src="https://avatars.githubusercontent.com/u/9919?s=200&v=4"
-          alt="Sekadau Dev"
-          width={100}
-          height={100}
+          src="/foto-profil.jpg"
+          alt="Anak Sultan Sekadau"
+          width={300}
+          height={300}
           className="rounded-full border-2 border-neutral-800 dark:border-neutral-200"
         />
       </div>
